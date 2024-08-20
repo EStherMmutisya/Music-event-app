@@ -1,0 +1,1 @@
+a app to track social events around east africa and others.
