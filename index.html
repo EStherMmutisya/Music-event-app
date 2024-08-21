@@ -6,13 +6,31 @@
         Music event app
     </title>
 </head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="logo.png" alt="Logo" style="width: 100px; height: auto;">
+    <form>
+        <input type="text" id="search-input" placeholder="Search events">
+        <button type="submit">Search</button>
+    </form>
+    <button id="add-event-btn">Add Event</button>
+    <button id="sort-events-btn">Sort Events</button>
+    <button id="filter-events-btn">Filter Events</button>
+    <button id="clear-events-btn">Clear Events</button>
+</header>
 <body> 
     <h1>Music event app</h1>
 
     <h2>THIS APP IS TO TRACK EVENTS AROUND THE COUNTRY AND THE EAST AFRICA</h2>
 
     <div id="events-container">
-        <!-- Events will be dynamically added here -->
+        
          <div class="event">Event Name: </div>
          <div class="date ">Date:</div> 
          <div class="location">Location:</div> 
@@ -21,8 +39,5 @@
     </div>
 </body>
 
-
-
-
-
+<script src="script.js"></script>  
 </html>
