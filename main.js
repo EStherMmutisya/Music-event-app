@@ -26,7 +26,13 @@ function addEvent() {
     }
 }
 
+// Function to sort events by date
+function sortEvents() {
+    events.sort((a, b) => a.date - b.date);
+    renderEvents();
 }
+
+
 
 // Function to render events
 function renderEvents(filteredEvents = events) {
