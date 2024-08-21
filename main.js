@@ -32,6 +32,13 @@ function sortEvents() {
     renderEvents();
 }
 
+// Function to filter events by name
+function filterEvents() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const filteredEvents = events.filter(event => event.name.toLowerCase().includes(searchTerm));
+    renderEvents(filteredEvents);
+}
+
 
 
 // Function to render events
