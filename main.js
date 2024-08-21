@@ -39,7 +39,11 @@ function filterEvents() {
     renderEvents(filteredEvents);
 }
 
-
+// Function to clear events
+function clearEvents() {
+    events.length = 0;
+    renderEvents();
+}
 
 // Function to render events
 function renderEvents(filteredEvents = events) {
