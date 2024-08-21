@@ -26,7 +26,7 @@ function addEvent() {
     }
 }
 
-
+}
 
 // Function to render events
 function renderEvents(filteredEvents = events) {
